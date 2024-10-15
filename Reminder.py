@@ -39,6 +39,7 @@ def play_snd():
     pygame.mixer.init()
     pygame.mixer.music.load('reminder.mp3')
     pygame.mixer.music.play()
+    print('Включено')
 
 window = Tk()
 window.title('Напоминание')
